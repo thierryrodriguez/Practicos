@@ -1,7 +1,8 @@
 <?php
 
-echo "<p><h1>Ejercicio 4</h1><p><br>";
+
 require_once '../template/pag_principal.php';
+echo "<p><h1>Ejercicio 4</h1><p><br>";
 
 $paises = ['Argentina', 'Brasil', 'Paraguay', 'Uruguay'];
 
