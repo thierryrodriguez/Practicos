@@ -1,6 +1,12 @@
 <?php
-
 require_once '../template/pag_principal.php';
-echo "<p><h1>Ejercicio 3</h1><p><br>";
+?>
 
+<?php
+$nombre = "Nicolás";
+$apellido = "García";
+$edad = 17;
+$direccion = "Alfonso Rodriguez Castelao 3730, esq. Ramallo";
+$correo = "garnico17@gmail.com";
+$num = "094034373";
 ?>

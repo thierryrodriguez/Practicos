@@ -4,8 +4,11 @@ require_once '../template/pag_principal.php';
 echo "<p><h1>Ejercicio 1</h1><p><br>";
 
 
+
 ?>
+
 <?php
+
 
 $v1 = 12;
 $v2 = 2;
