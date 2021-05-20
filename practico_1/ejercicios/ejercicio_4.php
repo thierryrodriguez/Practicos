@@ -7,26 +7,24 @@ echo "<p><h1>Ejercicio 4</h1><p><br>";
 
 <html>
 
-<head>
-    <title>Ejercicio 4</title>
-</head>
-<?php
+<body bgcolor="7FEA92">
 
-$paises = ['Argentina', 'Brasil', 'Paraguay', 'Uruguay'];
+    <?php
 
-for ($i = 0; $i < count($paises); $i++) {
-    echo $paises[0] . "<br>";
-    echo $paises[1] . "<br>";
-    echo $paises[2] . "<br>";
-    echo $paises[3];
-    break;
-}
-?>
-<br>
+    $paises = ['Argentina', 'Brasil', 'Paraguay', 'Uruguay'];
 
-<body>
+    for ($i = 0; $i < count($paises); $i++) {
+        echo $paises[0] . "<br>";
+        echo $paises[1] . "<br>";
+        echo $paises[2] . "<br>";
+        echo $paises[3];
+        break;
+    }
+    ?>
+    <br>
 
-    <div class="color#ej_4">
+    <body>
+
         <label for="pais">Elija un país:</label>
         <select name="pais" id="pais">
             <option value="Argentina">Argentina</option>
@@ -34,7 +32,7 @@ for ($i = 0; $i < count($paises); $i++) {
             <option value="Paraguay">Paraguay</option>
             <option value="Uruguay" selected>Uruguay</option>
         </select>
+    </body>
 </body>
-</div>
 
 </html>

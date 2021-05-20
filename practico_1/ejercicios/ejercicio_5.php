@@ -6,7 +6,7 @@ echo "<p><h1>Ejercicio 5</h1><p><br>";
 
 <body>
 
-<div class="color#ej_1"> 
+<body bgcolor="7FEA92">
 		<?php
 
 		$factura["cantidad"]["descripcion"] = '2';
@@ -22,5 +22,5 @@ echo "<p><h1>Ejercicio 5</h1><p><br>";
 
 
 		?>
-</div>
+</body>
 </body>
