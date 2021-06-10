@@ -2,10 +2,12 @@
 
 
 require_once '../template/pag_principal.php';
-echo "<p><h1>Ejercicio 4</h1><p><br>";
+
 ?>
 
+<!DOCTYPE HTML>
 <html>
+<h1>Ejercicio 4</h1>
 
 <body bgcolor="7FEA92">
 
@@ -34,5 +36,6 @@ echo "<p><h1>Ejercicio 4</h1><p><br>";
         </select>
     </body>
 </body>
+
 
 </html>
